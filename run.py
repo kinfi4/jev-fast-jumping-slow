@@ -115,7 +115,7 @@ def main() -> None:
     settings.STARTING_LEVEL = args.level
 
     if args.mode == "manual":
-        print("Manual mode: arrows/WASD to move, space to jump, e to interact, p to pause.")
+        print("Manual mode: A/D to move, space to jump, W/S to climb, e to interact, p to pause.")
         Game().play()
     else:
         from jev_brain import JevBrain

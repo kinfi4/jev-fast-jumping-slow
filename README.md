@@ -28,7 +28,7 @@ off a pit edge without jumping). In the final test runs it never had to.
 - **Level 2** - climb a tower, hop over a chasm on a stepping stone, wait at a
   pit until the patrolling spikeman walks away, then jump over it.
 
-Jev beats both with no hearts lost, for about 1.5 cents.
+Jev beats both with no hearts lost, for under a cent per run.
 
 ## Run
 
