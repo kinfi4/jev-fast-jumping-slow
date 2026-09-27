@@ -1,0 +1,60 @@
+pygame-platformer/
+│
+├── LICENSE.txt
+├── main.py
+├── README.md
+├── requirements.txt
+├── settings.py
+│
+├── assets
+│   ├── fonts/
+│   ├── images/
+│   │   ├── backgrounds/
+│   │   ├── characters/
+│   │   |   ├── enemies/
+│   │   |   ├── npcs/
+│   │   |   └── players/
+|   |   |
+│   │   ├── items/
+│   │   ├── climbables/
+│   │   ├── fluids/
+│   │   ├── interactables/
+│   │   ├── platforms/
+│   │   ├── tiles/
+│   │   └── triggers/
+|   |
+│   ├── levels/
+│   ├── music/
+│   ├── sounds/
+│   └── sources.txt
+│
+└── platformer/
+    ├── __init__.py
+    ├── game.py
+    │
+    ├── camera/
+    │   ├── __init__.py
+    │   └── camera.py
+    │
+    ├── entities/
+    │   ├── __init__.py
+    │   ├── enemies.py
+    │   ├── entity.py
+    │   ├── climbables.py
+    │   ├── fluids.py
+    │   ├── hero.py
+    │   ├── interactables.py
+    │   ├── items.py
+    │   ├── platforms.py
+    │   ├── tiles.py
+    │   └── triggers.py
+    │   
+    ├── overlays/
+    │   ├── __init__.py
+    │   ├── grid.py   
+    │   ├── hud.py   
+    │   └── scenes.py
+    │   
+    └── world/
+        ├── __init__.py
+        └── world.py
